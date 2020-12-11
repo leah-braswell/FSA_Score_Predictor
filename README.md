@@ -11,4 +11,4 @@ Team members have agreed to communicate primarily through slack on a day to day 
 
 
 ## Database
-Data will be provided from a Florida public elementary school with any identifying information redacted to protect student privacy.  
+Data will be provided from  two Florida public elementary schools with any identifying information redacted to protect student privacy.  The categorical data chosen include race, gender, absence rate, behavior incidents, and retentions.  Fall, Winter, and Spring Diagnostic assessment scores dating back to the 2017-2018 school year provide evidence of academic growth.  ELA and Math scores are in separate tables due to the fact that they are scored on separate scales. 

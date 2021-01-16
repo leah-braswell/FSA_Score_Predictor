@@ -26,8 +26,23 @@ The data was analyzed and filtered by student who have been retained (repeated a
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Retained%20Math.png)
 
  
-## Machine Learning Model
-We choose the Random Forest classifier for this projet.This model is best suited for predicting scores. It is also easy to understand and explain outcomes with this model.  Categorical feature columns (string datatype) will incluede race, gender, absence rate, behavior incidents, and past retentions.  Numerical features (integer datatype) will include Diagnostic assessment scores and growth monitoring (GM) scores.  The target column will the the FSA Achievement level.  Separate models will be written for ELA and Math.
+## Machine Learning Model Narrative
+### Preprocessing
+The data was gathered from two Central Florida Elementary schools.  Data for certain students was accessed through a portal called Performance Matters.  Data for other students was pulled from archived data sheets kept by the schools.  The necessary data was selected and either copied or exported to csv files.  Pandas and scikit-learn were imported for creating DataFrames, scaling, and encoding.  Null values were removed using Pandas, however there were some cells that appeared to be blank but were not removed with ‘dropna’.  These were removed manually in excel. The data was then standardized, using Pandas, to ensure it all followed the same formatting and capitalization rules. 
+
+### Model Choice
+We choose the Random Forest classifier for this project.  This model is best suited for predicting scores. It is also easy to understand and explain outcomes with this model.  Our original model had five possible outcomes.  It was noted that the overall accuracy was barely above 50%.  After noticing that the model was good at predicting an Achievement Level of 3, but the difference between a Level 1 and 2 was less accurate, as was the difference between 4 and 5.  For this reason, the target was changed to a pass/fail.  A column was added that grouped Achievement Levels of 1 and 2 as 0 (fail) and Levels 3-5 as 1 (pass).  
+
+### Feature Engineering and Selection
+The numerical features selected are Fall and Winter I-Ready diagnostic tests for Third Grade students.  The categorical features selected include ethnicity, gender, absence rate, behavior incidents, and retention. Absence Rate reflects whether or not a student was absent for 10% or more of the school year.  Behavior Incidents indicate two or more referrals in a school year.  Retentions indicate if a student ever repeated a grade.  
+The target is the Florida Standards Assessment (FSA) Achievement Level.  This is on a scale of 1-5 where a 3 is considered “On Grade Level”.  A score of 1 or 2 is not considered passing, and a Third Grade student who scores a 1 on the ELA assessment may be retained and provided remedial instruction in Reading the following year.  A score of 3 or above is considered passing.  
+
+### Train/Test Split
+Scikit-Learn was used to create a Train/Test Split.  For the first iteration of the model, we allowed the utility to choose the split of the data.  A 70/30 split is used in the final model.  The Scikit-Learn Standard Scaler was used to scale the numerical and categorical data.
+
+### Accuracy Score
+The current accuracy score for the English Language Arts model is 79.7% for predicting pass/fail.
+
 
 
 ## Database

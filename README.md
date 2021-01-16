@@ -49,5 +49,8 @@ The current accuracy score for the English Language Arts model is 79.7% for pred
 Data will be provided from two Florida public elementary schools with any identifying information redacted to protect student privacy.  The categorical data chosen include race, gender, absence rate, behavior incidents, and retentions.  Fall, Winter, and Spring Diagnostic assessment scores dating back to the 2017-2018 school year provide evidence of academic growth.  ELA and Math scores are in separate tables due to the fact that they are scored on separate scales. 
 
 ## Presentation
+
+The following link will take you to the Google Slides presentation. The presentation will tell the story of the project.
+
 https://docs.google.com/presentation/d/e/2PACX-1vQKtrgxA88cZ8FfiY-rjbQno07R9LYr2ki83eTg24WP4XJf1wpaEJpuywWDH-yJRN76ru4fubnWFa9g/pub?start=false&loop=false&delayms=3000
 

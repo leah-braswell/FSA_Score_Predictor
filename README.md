@@ -7,22 +7,26 @@ The purpose of this project is to predict Third, Fourth, and Fifth Grade Achieve
 Our data is composed of 300 or more students in two different schools in the State of Florida. The data collected was I-Ready diagnostic tests for grades K-2 and FSA scores for grades 3-5. There is at least three data points per student in one given school year. The categorical data chosen include race, gender, absence rate, behavior incidents, and retentions. Fall, Winter, and Spring Diagnostic assessment scores dating back to the 2017-2018 school year provide evidence of academic growth. ELA and Math scores are in separate tables due to the fact that they are scored on separate scales
 
 The data was analyzed and filtered by gender in both subject areas ELA and Math. In ELA the data shows that scores were similar amongst females and males with a passing score. In Math the data show that scores were similar amongst females and males with a passing score.
-![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Gender%20ELA.png)
-![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Gender%20Math.png)
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Gender%20ELA.png)
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Gender%20Math.png)
 
 
 The data was analyzed and filtered by ethnicity in both subject areas ELA and Math. In ELA the data shows that  Cauacasians scored a passing score at a higher rate than any other ethnicity. It should a similar result in Math. 
-![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Ethnicity%20ELA.png)
-![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Ethnicity%20Math.png)
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Ethnicity%20ELA.png)
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Ethnicity%20Math.png)
 
 The data was analyzed and filtered by attendance in both subject areas ELA and Math. The attendance data refers to if a student has had 10 or more absences in that school year. In ELA the data shows that scores were higher amongst students with no attendance concerns. In Math it should a similar result. Students who attend school regularly will have a higher chance of passing the FSA with a 3 or higher.
-![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Attendance%20ELA.png)
-![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Attendance%20Math.png)
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Attendance%20ELA.png)
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Attendance%20Math.png)
 
 The data was analyzed and filtered by student who have been retained (repeated a grade). In ELA the data shows there was a higher number of students passing with a 3 that were retained. In Math the data shows that students will least likely to pass with a 3 higher if they were retained.
-![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Retained%20ELA.png)
-![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Retained%20Math.png)
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Retained%20ELA.png)
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Retained%20Math.png)
 
+## Exploratory and  Analysis  Phase
+During the exploratory phase, we used the Pandas library in Python through Jupyter Notebook. We had to handle different forms of raw data that was held in five separate CSV files. The data included Demographics, Achievement_Levels, EWSdata, ELA_DATA, and MATH_DATA.
+We imported these files as Dataframes and then combined them in different Dataframes using the merge function. One of the combined Dataframes held all the files in one main Dataframe. Two additional Dataframes were created for ELA data and Math data. These Dataframes allowed us to determine necessary statistical information, using the descriptive function. The descriptive functions were the total quantity of rows and minimum and maximum of key features like the Diagnosis in the Fall and Winter periods. This step was essential to determine the five different levels of bins. We noticed that the allocation in ELA assessment is different from the Math assessment, and in the end, this was critical to obtain accurate bins.
+One of the valuable objectives of this analysis was to group the diagnosis features into bins. The decision to take this approach was based on the fact that the initial Machine Learning model achieved only around 50% of predictive accuracy.
  
 ## Machine Learning Model Narrative
 ### Preprocessing

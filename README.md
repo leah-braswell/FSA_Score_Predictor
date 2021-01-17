@@ -1,6 +1,4 @@
-# Boot_Camp_Final_Project
-
-#  FSA Score Predictor
+# FSA Score Predictor
 
 ## Overview
 The purpose of this project is to predict Third, Fourth, and Fifth Grade Achievement Levels on the Florida Standards Assessment (FSA) in ELA (English Lanugage Arts) and Math.  The FSA is a high-stakes test that is used to determine teacher ratings, school grades, Third Grade promotion requirements, and graduation eligibility.  Florida teachers spend a great deal of time using data to drive their instruction.  Educators provide targeted interventions that close learning gaps to ensure students achieve proficiency of grade level standards.  This model will use historical diagnostic data as well as demographics, attendance, and discipline data to predict student achievement on the FSA.  The analysis of this data will provide insight as to which factors impact performance on the assessment.  Schools will be able to use this model to predict achievement levels and prepare their staff and students for success.

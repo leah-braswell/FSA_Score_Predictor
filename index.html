@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FSA Four</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+
+  <body color="blue">
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./static/images/Florida_dots_map_1.png" alt="Map of Fl" />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="./static/images/faces_1.png"
+            alt="faces1"
+            style="transform: rotate(-60deg)"
+            class="center"
+          />
+        </div>
+        <div class="col-md-4">
+          <img src="./static/images/fsa-logo.png" alt="logo" />
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <!-- <p>Text Text Text Text Text Text Text Text Text Text Text Text .</p> -->
+            <!-- <img
+            src="../FINAL_PROJECT/Resources/faces_2.png"
+            alt="faces2"
+            
+            class="center"
+          /> -->
+          </div>
+          <div class="col-md-6">
+            <p>
+              The purpose of this project is to predict Third, Fourth, and Fifth
+              Grade Achievement Levels on the Florida Standards Assessment (FSA)
+              in ELA (English Lanugage Arts) and Math. The FSA is a high-stakes
+              test that is used to determine teacher ratings, school grades,
+              Third Grade promotion requirements, and graduation eligibility.
+              Florida teachers spend a great deal of time using data to drive
+              their instruction. Educators provide targeted interventions that
+              close learning gaps to ensure students achieve proficiency of
+              grade level standards. This model will use historical diagnostic
+              data as well as demographics, attendance, and discipline data to
+              predict student achievement on the FSA. The analysis of this data
+              will provide insight as to which factors impact performance on the
+              assessment. Schools will be able to use this model to predict
+              achievement levels and prepare their staff and students for
+              success.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <p>
+            The data was analyzed and filtered by attendance in both subject
+            areas ELA and Math. The attendance data refers to if a student has
+            had 10 or more absences in that school year. In ELA the data shows
+            that scores were higher amongst students with no attendance
+            concerns. In Math it should a similar result. Students who attend
+            school regularly will have a higher chance of passing the FSA with a
+            3 or higher.
+          </p>
+          <p>
+            A score of 1 or 2 is not considered passing, and a Third Grade
+            student who scores a 1 on the ELA assessment may be retained and
+            provided remedial instruction in Reading the following year. A score
+            of 3 or above is considered passing.
+          </p>
+
+          <img src="./static/images/faces_2.png" alt="faces2" class="center" />
+        </div>
+
+        <div class="col-md-6">
+          <p>
+            The Scikit-Learn Standard Scaler was used to scale the numerical and
+            categorical data.
+          </p>
+
+          <p>
+            The current accuracy score for the English Language Arts model is
+            79.7% for predicting pass/fail. The current accuracy score for the
+            Math model is 89.1% for predicting pass/fail.
+          </p>
+
+          <div
+            class="tableauPlaceholder"
+            id="viz1610677439720"
+            style="position: relative"
+          >
+            <noscript
+              ><a href="#"
+                ><img
+                  alt=" "
+                  src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fs&#47;fsa_project&#47;FSAStory&#47;1_rss.png"
+                  style="border: none" /></a></noscript
+            ><object class="tableauViz" style="display: none">
+              <param
+                name="host_url"
+                value="https%3A%2F%2Fpublic.tableau.com%2F"
+              />
+              <param name="embed_code_version" value="3" />
+              <param name="site_root" value="" />
+              <param name="name" value="fsa_project&#47;FSAStory" />
+              <param name="tabs" value="no" />
+              <param name="toolbar" value="yes" />
+              <param
+                name="static_image"
+                value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fs&#47;fsa_project&#47;FSAStory&#47;1.png"
+              />
+              <param name="animate_transition" value="yes" />
+              <param name="display_static_image" value="yes" />
+              <param name="display_spinner" value="yes" />
+              <param name="display_overlay" value="yes" />
+              <param name="display_count" value="yes" />
+              <param name="language" value="en" />
+              <param name="filter" value="publish=yes" />
+            </object>
+          </div>
+          <script type="text/javascript">
+            var divElement = document.getElementById("viz1610677439720");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+            vizElement.style.width = "1016px";
+            vizElement.style.height = "991px";
+            var scriptElement = document.createElement("script");
+            scriptElement.src =
+              "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

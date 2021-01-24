@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FSA Four</title>
+    <title>FSA</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
     <link rel="stylesheet" href="static/css/style.css" />
   </head>
@@ -18,87 +20,109 @@
     <div class="wrapper">
       <div class="row">
         <div class="col-md-4">
-          <img src="./static/images/Florida_dots_map_1.png" alt="Map of Fl" />
-        </div>
-        <div class="col-md-4">
           <img
-            src="./static/images/faces_1.png"
-            alt="faces1"
-            style="transform: rotate(-60deg)"
-            class="center"
+            src="./static/images/Florida_dots_map_1.png"
+            style="width: 100%"
+            alt="Map of Fl"
+            class="w3-container w3-margin-top"
           />
         </div>
+        <div class="col-md-4"></div>
+
         <div class="col-md-4">
-          <img src="./static/images/fsa-logo.png" alt="logo" />
+          <img
+            src="./static/images/fsa-logo.png"
+            class="w3-container"
+            alt="logo"
+          />
         </div>
       </div>
       <div>
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-4">
-            <!-- <p>Text Text Text Text Text Text Text Text Text Text Text Text .</p> -->
-            <!-- <img
-            src="../FINAL_PROJECT/Resources/faces_2.png"
-            alt="faces2"
-            
-            class="center"
-          /> -->
+            <div class="w3-panel w3-padding-32" style="width: 80%">
+              <img
+                src="./static/images/faces_1.png"
+                alt="faces1"
+                style="transform: rotate(-75deg)"
+                class="center"
+              />
+            </div>
           </div>
+
           <div class="col-md-6">
-            <p>
-              The purpose of this project is to predict Third, Fourth, and Fifth
-              Grade Achievement Levels on the Florida Standards Assessment (FSA)
-              in ELA (English Lanugage Arts) and Math. The FSA is a high-stakes
-              test that is used to determine teacher ratings, school grades,
-              Third Grade promotion requirements, and graduation eligibility.
-              Florida teachers spend a great deal of time using data to drive
-              their instruction. Educators provide targeted interventions that
-              close learning gaps to ensure students achieve proficiency of
-              grade level standards. This model will use historical diagnostic
-              data as well as demographics, attendance, and discipline data to
-              predict student achievement on the FSA. The analysis of this data
-              will provide insight as to which factors impact performance on the
-              assessment. Schools will be able to use this model to predict
-              achievement levels and prepare their staff and students for
-              success.
-            </p>
+            <div>
+              <p>
+                The purpose of this project is to predict Third, Fourth, and
+                Fifth Grade Achievement Levels on the Florida Standards
+                Assessment (FSA) in ELA (English Lanugage Arts) and Math. The
+                FSA is a high-stakes test that is used to determine teacher
+                ratings, school grades, Third Grade promotion requirements, and
+                graduation eligibility. Florida teachers spend a great deal of
+                time using data to drive their instruction. Educators provide
+                targeted interventions that close learning gaps to ensure
+                students achieve proficiency of grade level standards. This
+                model will use historical diagnostic data as well as
+                demographics, attendance, and discipline data to predict student
+                achievement on the FSA. The analysis of this data will provide
+                insight as to which factors impact performance on the
+                assessment. Schools will be able to use this model to predict
+                achievement levels and prepare their staff and students for
+                success.
+              </p>
+
+              <p>
+                We choose the Random Forest classifier for this project. This
+                model is best suited for predicting scores. It is also easy to
+                understand and explain outcomes with this model. The
+                Scikit-Learn Standard Scaler was used to scale the numerical and
+                categorical data. The current accuracy score for the English
+                Language Arts model is 79.7% for predicting pass/fail. The
+                current accuracy score for the Math model is 89.1% for
+                predicting pass/fail.
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-4">
-          <p>
-            The data was analyzed and filtered by attendance in both subject
-            areas ELA and Math. The attendance data refers to if a student has
-            had 10 or more absences in that school year. In ELA the data shows
-            that scores were higher amongst students with no attendance
-            concerns. In Math it should a similar result. Students who attend
-            school regularly will have a higher chance of passing the FSA with a
-            3 or higher.
-          </p>
-          <p>
-            A score of 1 or 2 is not considered passing, and a Third Grade
-            student who scores a 1 on the ELA assessment may be retained and
-            provided remedial instruction in Reading the following year. A score
-            of 3 or above is considered passing.
-          </p>
-
-          <img src="./static/images/faces_2.png" alt="faces2" class="center" />
+          <div class="vertical-center w3-container">
+            <p>
+              The data was analyzed and filtered by attendance in both subject
+              areas ELA and Math. The attendance data refers to if a student has
+              had 10 or more absences in that school year. In ELA the data shows
+              that scores were higher amongst students with no attendance
+              concerns. In Math it should a similar result. Students who attend
+              school regularly will have a higher chance of passing the FSA with
+              a 3 or higher.
+            </p>
+            <div class="w3-panel w3-padding-32">
+              <img
+                src="./static/images/12345_2.png"
+                alt="12345"
+                class="center"
+              />
+            </div>
+            <p>
+              A score of 1 or 2 is not considered passing, and a Third Grade
+              student who scores a 1 on the ELA assessment may be retained and
+              provided remedial instruction in Reading the following year. A
+              score of 3 or above is considered passing.
+            </p>
+            <div class="w3-panel w3-padding-32">
+              <img
+                src="./static/images/faces_2.png"
+                alt="faces2"
+                class="center"
+              />
+            </div>
+          </div>
         </div>
 
         <div class="col-md-6">
-          <p>
-            The Scikit-Learn Standard Scaler was used to scale the numerical and
-            categorical data.
-          </p>
-
-          <p>
-            The current accuracy score for the English Language Arts model is
-            79.7% for predicting pass/fail. The current accuracy score for the
-            Math model is 89.1% for predicting pass/fail.
-          </p>
-
           <div
             class="tableauPlaceholder"
             id="viz1610677439720"

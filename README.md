@@ -15,6 +15,7 @@ The data was analyzed and filtered by gender in both subject areas ELA and Math.
 
 The data was analyzed and filtered by ethnicity in both subject areas ELA and Math. In ELA the data shows that  Cauacasians scored a passing score at a higher rate than any other ethnicity. It should a similar result in Math. 
 
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Ethnicity%20total.png)
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Ethnicity%20ELA.png)
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Ethnicity%20Math.png)
 
@@ -35,4 +36,4 @@ We choose the Random Forest classifier for this projet.This model is best suited
 Data will be provided from two Florida public elementary schools with any identifying information redacted to protect student privacy.  The categorical data chosen include race, gender, absence rate, behavior incidents, and retentions.  Fall, Winter, and Spring Diagnostic assessment scores dating back to the 2017-2018 school year provide evidence of academic growth.  ELA and Math scores are in separate tables due to the fact that they are scored on separate scales. 
 
 ## Presentation
-
+https://docs.google.com/presentation/d/12wi2BtFbhAzu5zYDUBJCmo3jlZx0pq8Z9Q29JtZB1_c/edit#slide=id.gb75e8e452f_2_214

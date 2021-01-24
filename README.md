@@ -10,10 +10,11 @@ The data was analyzed and filtered by gender in both subject areas: ELA and Math
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/main/Charts/Gender%20ELA.png)
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/main/Charts/Gender%20Math.png)
 
-
 The data was analyzed and filtered by ethnicity in both subject areas ELA and Math. In ELA the data shows that  Cauacasians scored a passing score at a higher rate than any other ethnicity. It showed a similar result in Math. 
+![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Ethnicity%20total.png)
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/main/Charts/Ethnicity%20ELA.png)
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/main/Charts/Ethnicity%20Math.png)
+
 
 The data was analyzed and filtered by attendance in both subject areas ELA and Math. The attendance data refers to if a student was absent for more than 10% of that school year. In ELA the data shows that scores were higher amongst students with no attendance concerns. In Math it should a similar result. Students who attend school regularly will have a higher chance of passing the FSA with a 3 or higher.
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/main/Charts/Attendance%20ELA.png)
@@ -54,7 +55,8 @@ Data will be provided from two Florida public elementary schools with any identi
 
 The following links will take you to the Google Slides presentation and the interactive dashboard. The presentation will tell the story of the project.
 
-[Link to Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQKtrgxA88cZ8FfiY-rjbQno07R9LYr2ki83eTg24WP4XJf1wpaEJpuywWDH-yJRN76ru4fubnWFa9g/pub?start=false&loop=false&delayms=3000)
+[Link to Presentation](https://docs.google.com/presentation/d/12wi2BtFbhAzu5zYDUBJCmo3jlZx0pq8Z9Q29JtZB1_c/edit#slide=id.gb75e8e452f_2_214)
 
 [Link to Dashboard](https://leah-braswell.github.io/Boot_Camp_Final_Project/)
+
 

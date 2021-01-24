@@ -54,6 +54,7 @@ Data will be provided from two Florida public elementary schools with any identi
 
 The following links will take you to the Google Slides presentation and the interactive dashboard. The presentation will tell the story of the project.
 
-https://docs.google.com/presentation/d/e/2PACX-1vQKtrgxA88cZ8FfiY-rjbQno07R9LYr2ki83eTg24WP4XJf1wpaEJpuywWDH-yJRN76ru4fubnWFa9g/pub?start=false&loop=false&delayms=3000
+[Link to Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQKtrgxA88cZ8FfiY-rjbQno07R9LYr2ki83eTg24WP4XJf1wpaEJpuywWDH-yJRN76ru4fubnWFa9g/pub?start=false&loop=false&delayms=3000)
+
 [Link to Dashboard](https://leah-braswell.github.io/Boot_Camp_Final_Project/)
 

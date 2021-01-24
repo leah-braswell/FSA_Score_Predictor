@@ -14,6 +14,7 @@ The data was analyzed and filtered by gender in both subject areas ELA and Math.
 
 
 The data was analyzed and filtered by ethnicity in both subject areas ELA and Math. In ELA the data shows that  Cauacasians scored a passing score at a higher rate than any other ethnicity. It should a similar result in Math. 
+![] (https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Charts/Ethnicity%20total.png)
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Ethnicity%20ELA.png)
 ![](https://github.com/leah-braswell/Boot_Camp_Final_Project/blob/Jessica/Resources/Ethnicity%20Math.png)
 

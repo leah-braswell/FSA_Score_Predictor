@@ -1,0 +1,29 @@
+body {
+
+    color: #100a49;
+    
+  }
+
+  
+
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
